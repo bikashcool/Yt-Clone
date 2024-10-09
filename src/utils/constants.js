@@ -1,4 +1,4 @@
-const GOOGLE_API_KEY = "AIzaSyA10i5fLynOEa2pRy3s1gj4T04iaVGRYdc";
+const GOOGLE_API_KEY = process.env.REACT_APP_GOOGLE_API;
 
 export const OFFSET_LIVE_CHAT = 30;
 
